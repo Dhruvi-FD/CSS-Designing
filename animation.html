@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .papa{
+            height: 200px;
+            width: 200px;
+            /* background-color: red; */
+            border-top: 10px solid rgb(185, 36, 140);
+            border-radius: 50%;
+            margin: 100px auto;
+            position: relative;
+            animation: gamete 1s linear infinite;
+        }
+        .beta{
+            height: 100px;
+            width: 100px;
+            /* background-color:black; */
+            border-top: 10px solid hotpink;
+            border-radius: 50%;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            animation: gamete 0.4s linear infinite ;
+
+        }
+        
+        @keyframes gamete{
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="papa">
+        <div class="beta">
+            
+        </div>
+    </div>
+</body>
+</html>
