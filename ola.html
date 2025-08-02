@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ola</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .d1{
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            color: white;
+    
+        }
+
+        .d2{
+            display: flex;
+            color: white;
+            gap: 30px;
+           
+
+        }
+
+        .d3{
+            display: flex;
+            gap: 20px;
+
+        }
+
+        .d4{
+            background-image: url(ola\ back.webp) ;
+            color: white;
+        }
+
+        .d5{
+            display: flex;
+            gap: 20px;
+        }
+
+        .d6{
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            position: relative;
+            
+        }
+
+        .d7{
+            display: flex;
+            gap: 70px;
+        
+        }
+
+      .d8{
+        display: flex;
+        justify-content: center;
+      }
+
+
+      .d9{
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        justify-content: center;
+      }
+
+      .d10{
+        display: flex;
+        text-align: center;
+      }
+
+      .d11 video{
+        height: 800px;
+        width: 600px;
+
+      }
+
+      .d11{
+        display: flex;
+        text-align: center;
+      }
+
+      .d12{
+        padding: 300px 100px;
+      }
+
+      .d17{
+        display: flex;
+      }
+      
+     .d15{
+        display: flex;
+        
+     }
+      
+     .d16{
+        text-align: center;
+         padding: 70px 100px;
+     }
+      
+    .img{
+        margin-left: 90px;
+    }
+
+    .m1{
+        margin-left: 200px;
+    }
+
+    .m3{
+        display: flex;
+        gap: 40px;
+    }
+    
+    .m2{
+        display: flex;
+        gap: 60px;
+    }
+
+    .m4{
+        margin-left: 1020px
+    }
+
+    .m5{
+        margin-left:250px;
+    }
+
+    .m6{
+        display: flex;
+       gap: 33px;
+        padding-left: 150px;
+      
+    }
+   
+   .m7{
+    display: flex;
+    margin-left: 150px;
+    gap: 15px;
+    
+   }
+
+
+   .m10{
+    margin-left: 150px;
+   }
+
+   .m11{
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+   }
+
+   .m12{
+    margin-top: 200px;
+   }
+   
+   .m13{
+    display: flex;
+    gap: 180px;
+    margin-left: 40px;
+
+
+   }
+
+   .m14{
+    margin-left: 100px;
+   }
+
+   .m15{
+    display: flex;
+    
+
+   }
+
+   .m16{
+    display: flex;
+    gap: 200px;
+   }
+
+   .m17{
+    margin-left: 200px;
+
+   }
+
+   .m18{
+    display: flex;
+    gap: 20px;
+   }
+
+   .m19{
+    display: flex;
+    gap: 40px;
+   }
+
+   
+
+   .box1{
+    border: 1px solid black;
+    height: 190px;
+    width: 250px;
+    flex-wrap: wrap;
+    margin-left:200px;
+    background-color: lightgoldenrodyellow;
+   }
+
+
+   .m20{
+    display: flex;
+    gap: 200px;
+   }
+
+   .m21{
+    display: flex;
+    gap: 40px;
+   }
+
+   .m6-p{
+    width: 450px;
+    flex-wrap: wrap;
+   }
+  
+    </style>
+</head>
+<body>
+
+
+    <div class="d1">
+        <div class="d2">
+            <div>
+            <img src="ola logo.jpeg" title="" alt="" height="40px" width="40px">
+            </div>
+            <div>
+                Ola Electric
+            </div>
+            <div>
+                Krutrim
+            </div>
+            <div>
+                Outstation
+            </div>
+        </div>
+
+        <div>
+        <div class="d3">
+            <div><button>Book an Ola Cab</button></div>
+            <div><button>Free S1 Test Ride</button></div>
+            <div class="icon"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        </div>
+    </div>
+
+    <div class="d4">
+        <div>
+            <h1>Moving people,and the world</h1>
+        </div>
+       
+
+        <div class="d5">
+
+            <div class="d6">
+                <div>Daily</div>
+                <div>Rental</div>
+                <div> Outstation</div>
+            </div>
+
+            <div class="d7">
+               <div class="current_location location"><span class="green_dot"></span> <input type="text" placeholder="Current Location" name="textbox1" id="textbox1" class="textbox1" fdprocessedid="iwbpuz"><div id="select-curr-loc" class="current-location-icon"><img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/current-location.svg" alt="Location Icon"></div><div class="search_location_list location_list"><ul id="search_location_list" class="search_location_list_data"></ul></div></div>
+                <div class="enter_destination location"><span class="red_dot"></span> <input type="text" placeholder="Enter Location" name="destination_location" id="destination_location" class="destination_location" fdprocessedid="db289q"><div class="destination_location_list location_list"><ul id="destination_location_list" class="destination_location_list_data"></ul></div></div>
+             <div><button class="search_btn" event-name="desktop_booking_widget_daily_search" fdprocessedid="49560d"><span class="search_txt_white">SEARCH</span> <span class="search_txt_green">OLA CABS</span> <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/forward-arrow.svg"></button></div>
+              
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+         
+        <div class="d8">
+           <img class="mgz-hover-main" src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/index_banner.png" alt="index_banner" title="" height="150px" width="1000px">
+        </div>
+
+
+        <div>
+            <h1><center>Global mobility ecosystem driving communities forward </center></h1>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="d9">
+            <div>
+                <div>
+                    <img class="mgz-hover-main" src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/cts-covered.svg" alt="cts-covered" title="">
+                </div>
+                <div>
+                    <p>250+</p>
+                    <p>Cities covered</p>
+                    <p>Across India, Australia, New Zealand and the UK</p>
+                </div>
+            </div>
+           
+          <div>
+             <div>
+                <img class="mgz-hover-main" src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/year-rides.svg" alt="year-rides" title="">
+             </div>
+              <div>
+                  <p>55 Cr+</p>
+                    <p>Yearly rides</p>
+                    <p>Booked by our customers every year</p>
+               </div>
+          </div>
+
+          <div>
+            <div>
+                <img class="mgz-hover-main" src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/kms-covered.svg" alt="kms-covered" title="">
+            </div>  
+            <div>
+                 <p>12 Cr+</p>
+                 <p>Kilometers on S1</p>
+                 <p>Distance covered on Ola S1 scooters within a year of launch</p>
+            </div>
+          </div>
+
+        </div>
+<br>
+<br>
+<br>
+<br>
+
+        <h1><center>There's an Ola ride for everyone</center></h1>
+
+
+        <div class="d10">
+
+            <div>
+                <div>
+                    <img class="mgz-hover-main" src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ride-budget.svg" alt="ride-budget" title="">
+                </div>
+                <div>
+                    <p>For any budget</p>
+                    <p>From Bikes and Autos to Prime Sedans and Prime SUVs, you will find a ride in your budget at your convenience any time.</p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img class="mgz-hover-main" src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ride-distance.svg" alt="ride-distance" title="">
+                </div>
+                <div>
+                    <p>For any distance</p>
+                    <p>Book rides within the city with Daily, or take a trip to your favourite destinations outside the city with Outstation.</p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img class="mgz-hover-main" src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ride-duration.svg" alt="ride-duration" title="">
+                </div>
+                <div>
+                    <p>For any duration</p>
+                    <p>Easily plan a day out without having to worry about conveyance with an hour-based package from Rental.</p>
+                </div>
+            </div>
+
+        </div>
+  
+
+        <div class="d11">
+            <div>
+                <video autoplaymode="on-scroll" class="cld-video-player" playsinline="" autoplay="" muted="" style="display: block;"><source src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/for-drivers.mp4" type="video/mp4"> Your browser does not support the video tag. </video> 
+            </div>
+
+            <div class="d12">
+                <div><h1>Making innovations since 2011</h1></div>
+                <div><p>For Riders We constantly experiment to come up with industry-first features for our riders that eventually become a norm.</p></div>
+                <div><p>For Drivers Our drivers get real time stats to help optimize their rides better and earn more, straight from the app.</p></div>
+            </div>
+          </div>
+        </div>
+
+   
+        <div class="d14">
+            <h1>Experience the smarter way to pay</h1>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="d15">
+            <div class="img">
+              <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/insurance-shop-img.png" height="300px" width="500px">
+            </div>
+
+            
+            <div class="d16">
+                <div>
+                    Postpaid + <button>Trusted by 40 lakh+ users</button>
+                </div>
+
+                <div>
+                    <p>Buy now, pay later for all spends once a month</p>
+                </div>
+
+                <div class="d17">
+                    <div>
+                        <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/insurance-1.svg">
+                        <p>Buy now, pay after 30 days</p>
+                    </div>
+
+                    <div>
+                        <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/insurance-3.svg">
+                        <p>Shop across 20,000 apps</p>
+                    </div>
+
+                    <div>
+                        <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/insurance-2.svg">
+                        <p>Credit limit upto ₹100,000</p>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="m2">
+            <div class="m1">
+                <p>Insurance</p>
+                <p>Effective insurances for all your risks</p>
+                <br>
+                <p>Explore more on the ola app</p>
+            </div>
+
+            <div class="m3">
+                <div>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/insure-trips.svg">
+                </div>
+                <div>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/insure-daily.svg">
+                </div>
+                <div>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/insure-hospicash.svg">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="m4">
+            <p>+ Much more</p>
+        </div>
+        <br>
+        <br>
+        <br>
+   
+
+        <div class="m5">
+            <h1>Making a difference</h1>
+        </div>
+
+        <br>
+        <br>    
+
+        <div class="m6">
+           <div>
+            <P class="m6-p">Foundation, the social welfare arm of Ola, is an outcome of a belief based on real interactions, research,
+                 and extensive study on the far-reaching impact of enabling and equipping people.</P>
+           </div>
+
+           <div>
+             <p>1 Lakh+</p>
+             <p>Families impacted in</p>
+             <p>FY 2020-21</p>
+           </div>
+
+           <div>
+            <P>93 Lakh+</P>
+            <p>Meals enabled across</p>
+            <p>India in FY 2020-21</p>
+           </div>
+
+        </div>
+
+        <div class="m7">
+
+            <div class="m8">
+                <div>
+                   <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/womens.png">
+                </div>
+                <div>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/donating.png">
+                </div>
+            </div>
+
+            <div class="m9">
+                <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/mother-son.png">
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="m10">
+            <p>more about ola Foundation</p>
+        </div>
+
+        <br>
+        <br>
+        
+        <div class="m11">
+
+            <div>
+                <img src="https://ola-prod-website.s3.ap-southeast-1.amazonaws.com/ola_grocery_web-20250116-050429.webp" height="500px" width="400px">
+            </div>
+
+            <div class="m12">
+                <h1>One Platform, Endless Options.Your our one-stop solution for Food, Grocery, Fashion, Gift Cards & Electronics.</h1>
+                <p>In collaboration with ONDC Unlock exclusive benefits of up to 50% off across leading brands.</p>
+                <p> Explore more on the ola app</p>
+            </div>
+
+        </div>
+
+<br>
+<br>
+
+        <div>
+            <h1>Recent from our blogs</h1>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="m13">
+            <div>
+                <div>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/pli-agreement.png" height="200pxpx" width="280px">
+                </div>
+                <div>
+                    <P>Ola signs PLI agreement</P>
+                    <p>know more</p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ola-to-invest.png"  height="200pxpx" width="280px">
+                </div>
+                <div>
+                    <P>Ola to invest $500 million</P>
+                    <p>know more</p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/indigenous-cell.png"  height="200pxpx" width="280px">
+                </div>
+                <div>
+                    <P>India's first indigenous cell</P>
+                    <P>know more</P>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <br>
+
+        <div class="m14">
+            <h1>Download our apps to get the best experience</h1>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="m15">
+
+            <div class="box1">
+                <div>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/olalogo.svg">
+                </div>
+                <div>
+                    <h6>Ola</h6>
+                    <p>Book cabs, buy insurance, access Ola Money and much more</p>
+                </div>
+            </div>
+
+            <div class="box1">
+                <div>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ola-driver.svg">
+                </div>
+                <div>
+                    <h6>Ola Driver</h6>
+                    <p>Register as a driver to take rides, see your earnings and incentives</p>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="m16">
+
+            <div class="m17">
+
+                <div>
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/OLA.svg">
+                </div>
+
+                <br>
+                <div class="m18">
+                    <div><i class="fa-brands fa-instagram"></i></div>
+                    <div><i class="fa-brands fa-youtube"></i></div>
+                    <div><i class="fa-brands fa-x-twitter"></i></div>
+                </div>
+
+            </div>
+
+            <div class="m19">
+              <div>
+                <div>book a cab</div>
+                <div>drive with us</div>
+                <div>Outstation</div>
+                <div>rental</div>
+                <div>ola Money</div>
+                <div>corporate</div>
+             </div>
+
+             <div>
+                <div>about us</div>
+                <div>contact us</div>
+                <div>support</div>
+                <div>careers</div>
+                <div> media center</div>
+             </div>
+
+             <div>
+                <div>ola s1</div>
+                <div>futurefactory</div>
+                <div>electric</div>
+                <div>investor relations</div>
+             </div>
+            </div>
+           
+
+            
+        </div>
+
+        <div style="border: 1px solid black;"></div>
+
+       <div class="m20">
+        <div>
+            <P>Copyright © 2024 Ola Electric Mobility Pvt Ltd. All Rights Reserved.</P>
+        </div>
+
+        <div class="m21">
+            <div>notices</div>
+            <div>privacy policy</div>
+            <div>terms of service</div>
+            <div> india</div>
+        </div>
+
+       </div>
+
+       
+</body>
+</html>
